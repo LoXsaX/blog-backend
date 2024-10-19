@@ -32,7 +32,7 @@
           {% if post.image_url %}
           <img class="img-fluid" src="{{post.image_url}}">
           {% else %}
-          <img class="img-fluid" src="{% static 'img/banner/blog.png' %}">
+          <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="Баннер блога">
           {% endif %}
           <h4>{{post.title}}<br /></h4>
           <div class="user_details">
